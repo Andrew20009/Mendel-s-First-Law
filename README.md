@@ -1,7 +1,7 @@
 # Mendel's First Law
 
 ## OVERVIEW
-This program calculates the **probability** that two randomly selected organisms from a population will produce an offspring with a **dominant allele**. It is a solution to the Rosalind problem **"Mendel's First Law" (ID: IPRB)**.
+This program calculates the probability that two randomly selected organisms from a population will produce an offspring with a dominant allele. It is a solution to the Rosalind problem **"Mendel's First Law" (ID: IPRB)**.
 
 ---
 
@@ -37,16 +37,16 @@ This program calculates the **probability** that two randomly selected organisms
 1. Reads <u>k (FF)</u>, <u>m (Ff)</u>, <u>n (ff)</u> from file
 2. Calculates total ordered pairs: <u>(k+m+n) × (k+m+n-1)</u>
 3. Multiplies each pair type by its dominant offspring probability:
-   - FF×FF → **100%**
-   - FF×Ff → **100%**
-   - FF×ff → **100%**
-   - Ff×Ff → **75%**
-   - Ff×ff → **50%**
-   - ff×ff → **0%**
+   - FF×FF → 100%
+   - FF×Ff → 100%
+   - FF×ff → 100%
+   - Ff×Ff → 75%
+   - Ff×ff → 50%
+   - ff×ff → 0%
 4. Divides the <u>sum of contributions</u> by total pairs
 
 ---
 
 ## TECHNOLOGIES USED
 - **Python**
-- **File I/O** (txt)
+- **TXT File**
